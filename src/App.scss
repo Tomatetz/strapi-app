@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.our_team_area {
+  margin-top: 70px;
+}
+.our_team_slide_area {
+  background: #f5f6f6;
+  margin-top: 60px;
+  padding-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+.our_team_slide_area .slick-list {
+  margin: -45px 80px 0;
+}
