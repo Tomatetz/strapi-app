@@ -18,7 +18,7 @@ export const PropertyCard = ({ attributes, id }) => {
           <PropertyCardImageWrapper>
             <PropertyCardImage
               style={{
-                backgroundImage: `url(${process.env.REACT_APP_MY_HEROKU_URL}${
+                backgroundImage: `url(${
                   attributes.images.data[attributes.images.data.length - 1].attributes.formats
                     .medium.url
                 })`,

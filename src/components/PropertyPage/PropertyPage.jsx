@@ -70,7 +70,7 @@ export const PropertyPage = () => {
                 <SliderImage
                   key={id}
                   style={{
-                    backgroundImage: `url(${process.env.REACT_APP_MY_HEROKU_URL}${attributes.url})`,
+                    backgroundImage: `url(${attributes.url})`,
                   }}
                 />
               </div>
