@@ -7,7 +7,7 @@ export const CarouselItem = ({ attributes }) => {
       <div>
         <PhotoDiv
           style={{
-            backgroundImage: `url(${process.env.REACT_APP_MY_HEROKU_URL}${attributes.profile_picture.data.attributes.formats.medium.url})`,
+            backgroundImage: `url(${attributes.profile_picture.data.attributes.formats.medium.url})`,
           }}
         />
       </div>
